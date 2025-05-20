@@ -8,3 +8,18 @@ body {
 .sektion2 {
     background-color: #D8C5AA;
 }
+a {
+    text-decoration: none;
+    color: black;
+    border: solid 1px black;
+    padding: 10px 20px;
+}
+
+section {
+    padding: 15px;
+    margin: 10px;
+}
+p {
+    text-align: left;
+    
+}
