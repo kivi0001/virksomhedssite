@@ -1,0 +1,44 @@
+main {
+  background-color: #e1d2bd;
+  padding: 50px 0 50px 0;
+}
+
+/* Grundlayout for sektionen */
+.prices {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #e3c8a3; /* Ligner farven i billedet */
+  font-family: "Georgia", serif;
+  color: #000;
+}
+
+.h1_price {
+  text-align: center;
+}
+
+/* Overskriften */
+.prices h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Grid layout til priserne */
+.price-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px 40px;
+}
+
+/* Ekstra margin under sidste række */
+.price-grid > .price:last-child {
+  margin-bottom: 30px;
+}
+
+/* Afbudsinfo */
+.note {
+  border-top: 2px dotted #999;
+  padding-top: 16px;
+  font-style: italic;
+  margin-top: 30px;
+}
