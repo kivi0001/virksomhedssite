@@ -15,8 +15,8 @@
   left: 50%;
   transform: translate(-240%, -50%);
   color: white;
-  font-size: 2.3rem;
-  font-weight: bold;
+  /* font-size: 2.3rem;
+  font-weight: bold; */
   letter-spacing: 5px;
 }
 
