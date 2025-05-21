@@ -12,7 +12,10 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+li,
+ul,
+menu {
   font-family: "Karla";
 }
 
@@ -44,6 +47,12 @@ p {
 
   p {
     font-size: 1.5em;
+  }
+
+  ul,
+  li,
+  menu {
+    font-size: 2em;
   }
 }
 
