@@ -1,0 +1,12 @@
+/* FOOTER */
+.footer {
+  background-color: #595731;
+  color: white;
+  padding: 4% 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo-footer {
+  padding-right: 40px;
+}
