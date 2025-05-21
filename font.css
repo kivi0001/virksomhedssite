@@ -15,6 +15,7 @@ h4,
 h5,
 li,
 ul,
+a,
 menu {
   font-family: "Karla";
 }
@@ -51,7 +52,9 @@ p {
 
   ul,
   li,
-  menu {
+  menu,
+  nav,
+  a {
     font-size: 2em;
   }
 }
