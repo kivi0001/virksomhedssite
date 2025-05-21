@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "karla";
+    src: url(fonts/Karla-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "lusitana";
+    src: url(fonts/Lusitana-Regular.ttf);
+}
+body {
+    background-color: #E1D2BD;
+}
+img {
+    width: 100%;
+    height:auto;
+}
+.sektion2 {
+    background-color: #D8C5AA;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    padding: 10px 20px;
+    font-family: lusitana;
+    line-height: 170%;
+
+}
+a:hover {
+    color: rgb(114, 113, 113);
+    border-color: rgb(114, 113, 113);
+
+}
+
+
+section {
+    padding: 15px;
+}
+p {
+    text-align: left;
+    font-family: lusitana;
+    font-size: 16px;
+    line-height: 170%;
+    /* margin-right: 10px; */
+    margin: 30px;
+}
+ul {
+    margin: 30px;
+    font-family: lusitana;
+    font-size: 16px;
+    line-height: 170%;
+}
+h1, h2, h3, h4 {
+    font-family: lusitana;
+}
+h2 {
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.banner {
+    display: grid;
+    position: relative;
+}
+.bannertitel {
+    color: white;
+    position: absolute;
+    font-family: karla;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.kontaktbtn, .merebtn {
+    margin-left: 160px;
+    font-size: 15px;
+}
+
+@media (width>=800px) {
+    .sektion2 {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    section {
+        padding-bottom: 50px;
+    }
+    .fagfolkimg {
+        grid-column: 1/2;
+        max-width: 600vw;
+        margin-top: 25%;
+        padding-left: 30px;
+    }
+    .ledelse {
+        grid-column: 2/3;
+        margin-left: 30px;
+    }
+    .margin {
+        margin-right: 300px;
+    }
+    .bannertitel {
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+    p, ul {
+        font-size: 24px;
+    }
+
+    h2 {
+        margin-top: 70px;
+        font-size: 40px;
+    }
+    a{
+    padding: 10px 50px;
+    }
+    .kontaktbtn, .merebtn {
+        margin-left: 300px;
+        font-size: 26px;
+         }
+       
+}
