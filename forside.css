@@ -13,7 +13,7 @@
 }
 body {
     background-color: #E1D2BD;
-    max-width: 90%;
+    max-width: 1400px;
     margin:auto;
 }
 img {
@@ -95,7 +95,7 @@ h2 {
     font-size: 24px;
     margin-left: 30px;
     margin-top: 30px;
-    text-align: center;
+    text-align: left center;
 }
 .grid_1_1 {
     display: grid;
@@ -115,14 +115,16 @@ h2 {
     grid-row: 2/3;
 }
 dotlottie-player {
-    width: 100%;
-    height: auto;
-    
+    display: none;
+}
+.bannerimg {
+    aspect-ratio: 1 / 1;
 }
 .bannerforside {
     display: grid;
     position:relative;
     color: white;
+    
 
 }
 .overskrift, .underoverskrift {
@@ -151,7 +153,7 @@ h4 {
     position: absolute;
     margin-left: 20vw;
     margin-right: 20vw;
-    margin-top: 40px;
+    margin-top: 20vw;
     padding:20px;
 }
 .portrait {
@@ -247,6 +249,16 @@ h4 {
         grid-row: 1/2;
         width: 40vw;
         margin-left: 50px;
+    }
+    dotlottie-player {
+        /* width: 1000px;
+        height: auto; */
+        display:initial;
+        aspect-ratio:1 / 1;
+        object-fit: cover;
+    }
+    .bannerimg {
+        display: none;
     }
 
 }
