@@ -64,7 +64,7 @@ body{
 @media (min-width: 800px){
 
     body{
-        max-width: 1400px;
+        max-width: 90%;
         margin: auto;
     }
     main{
