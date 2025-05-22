@@ -4,11 +4,11 @@
 }
 @font-face {
   font-family: "karla";
-  src: url(fonts/Karla-VariableFont_wght.ttf);
+  src: url(/fonts/Karla-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: "lusitana";
-  src: url(fonts/Lusitana-Regular.ttf);
+  src: url(/fonts/Lusitana-Regular.ttf);
 }
 body {
   background-color: #e1d2bd;
