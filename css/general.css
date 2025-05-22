@@ -21,3 +21,14 @@ img {
   /* margin-top: 20px;
   margin-bottom: 20px; */
 }
+
+@media (min-width: 800px) {
+  body {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+body {
+  background-color: #e1d2bd;
+}
