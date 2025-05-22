@@ -1,10 +1,10 @@
 @font-face {
-  font-family: Karla;
+  font-family: "Karla";
   src: url("font/Karla-VariableFont_wght.ttf");
 }
 
 @font-face {
-  font-family: Lusitana;
+  font-family: "Lusitana";
   src: url("font/Lusitana-Regular.ttf");
 }
 
@@ -17,11 +17,11 @@ li,
 ul,
 a,
 menu {
-  font-family: "Karla";
+  font-family: Karla;
 }
 
 p {
-  font-family: "Lusitana";
+  font-family: Lusitana;
 }
 
 /* Full size web font size */
@@ -31,7 +31,7 @@ p {
   h3,
   h4,
   h5 {
-    font-family: "Karla";
+    font-family: Karla;
   }
 
   h1 {
