@@ -1,0 +1,23 @@
+/* TEST */
+.test {
+  padding: 300px;
+}
+
+/* GENERAL */
+main {
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+}
