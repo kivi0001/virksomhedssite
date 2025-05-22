@@ -59,6 +59,11 @@ body{
     object-fit: cover;
 }
 
+.img :nth-child(2){
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+}
+
 /* DESKTOP VERSION */
 
 @media (min-width: 800px){
