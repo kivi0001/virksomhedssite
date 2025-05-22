@@ -36,6 +36,7 @@ li {
 .list_tilbyder {
   list-style-type: disc;
   padding-left: 20px;
+  font-size: 1.2em;
 }
 
 .bottum_styles {
