@@ -97,6 +97,7 @@ h2 {
 .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap:7px;
 }
 .img1 {
     grid-column: 1/2;
@@ -113,6 +114,7 @@ h2 {
 dotlottie-player {
     width: 100%;
     height: auto;
+    
 }
 .bannerforside {
     display: grid;
@@ -140,7 +142,7 @@ h4 {
     margin-top: 30px;
 }
 .baggrund {
-    background-color: rgba(20, 20, 20, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     border: none;
     border-radius: 10px;
     position: absolute;
@@ -150,10 +152,98 @@ h4 {
     padding:20px;
 }
 .portrait {
-    padding: 30px;
+    width: 70vw;
+    margin-left:50px;
 }
 @media (width>=800px) {
     .sektion2 {
         background-color: #D8C5AA;
+        
+      
     }
+    .overskrift {
+        font-size: 64px;
+        text-align: center;
+        padding-left:80px;
+        padding-right: 80px;
+        padding-top: 20px;
+    
+    }
+    .underoverskrift {
+        font-size: 40px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+        padding-left:40px;
+        padding-right: 40px;
+    }
+    h4 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .baggrund {
+            max-width: 80%;
+            margin-left: 25vw;
+            margin-right: 20vw;
+            margin-top: 20px;
+            padding:20px;
+        }
+    .grid1_1 {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        margin-top: 50px;
+    }
+    .kliniker {
+        grid-column: 1/2;
+        margin-left: 30px;
+    }
+    .portrait {
+        grid-column:2/3;
+        max-width: 400px;
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+    .knap {
+        text-align: left;
+        margin-left: 30px;
+        font-size: 26px;
+    }
+    a {
+        padding: 10px 50px;
+    }
+
+    .infocard {
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+    .pilright {
+        font-size:30px;
+        color: black;
+        /* padding-right: 100px; */
+        background-color: whitesmoke;
+        border: 2px solid black;
+        border-radius: 50%;
+        
+    }
+    .pilleft {
+        font-size:30px;
+        color: black;
+        /* padding-right: 100px; */
+        background-color: whitesmoke;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    .opstart {
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+    .grid_1_1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 40vw;
+        margin-left: 50px;
+    }
+
 }
