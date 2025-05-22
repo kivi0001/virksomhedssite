@@ -79,11 +79,11 @@ nav.active .menu a {
     margin-right: auto;
   }
 }
-
+/* 
 @media (width = 800px) {
   display: none;
 }
 
 @media (width > 800px) {
   display: none;
-}
+} */
