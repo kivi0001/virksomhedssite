@@ -6,7 +6,6 @@
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="css/fagfolk.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <script src="menu.js"></script>
     <title>Allan Blaabjerg</title>
   </head>
   <body>
@@ -14,41 +13,47 @@
       <div class="header-menu">
         <div class="logo">
           <h1>Allan Blaabjerg</h1>
-          <p>PSYKOLOG</p>
+          <p class="psykolog">PSYKOLOG</p>
         </div>
 
         <nav>
           <ul class="menu">
-            <li><a href="index.html">FORSIDE</a></li>
+            <li><a href="index.html" class="menua">FORSIDE</a></li>
 
             <li class="has-dropdown">
-              <a href="">YDELSER ▾</a>
+              <a href="" class="menua">YDELSER ▾</a>
               <ul class="dropdown">
-                <li><a href="angst.html">Angst</a></li>
-                <li><a href="stress.html">Stress</a></li>
+                <li><a href="angst.html" class="menua">Angst</a></li>
+                <li><a href="stress.html" class="menua">Stress</a></li>
                 <li>
-                  <a href="spiseforstyrrelser.html">Spiseforstyrrelser</a>
+                  <a href="spiseforstyrrelser.html" class="menua"
+                    >Spiseforstyrrelser</a
+                  >
                 </li>
               </ul>
             </li>
 
             <li class="has-dropdown">
-              <a href="">PRAKTISK ▾</a>
+              <a href="" class="menua">PRAKTISK ▾</a>
               <ul class="dropdown">
-                <li><a href="opstart.html">Opstart</a></li>
-                <li><a href="priser.html">Priser</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="opstart.html" class="menua">Opstart</a></li>
+                <li><a href="priser.html" class="menua">Priser</a></li>
+                <li><a href="kontakt.html" class="menua">Kontakt</a></li>
               </ul>
             </li>
 
-            <li><a href="fagfolk.html">TIL FAGFOLK</a></li>
+            <li><a href="fagfolk.html" class="menua">TIL FAGFOLK</a></li>
 
             <li class="has-dropdown">
-              <a href="">OM MIG ▾</a>
+              <a href="" class="menua">OM MIG ▾</a>
               <ul class="dropdown">
-                <li><a href="Terapeutisk.html">Terapeutisk Tilgang</a></li>
                 <li>
-                  <a href="erfaring-og-uddannelse.html"
+                  <a href="Terapeutisk.html" class="menua"
+                    >Terapeutisk Tilgang</a
+                  >
+                </li>
+                <li>
+                  <a href="erfaring-og-uddannelse.html" class="menua"
                     >Erfaring & Uddannelse</a
                   >
                 </li>
@@ -62,16 +67,25 @@
           </div>
         </nav>
       </div>
+      <div class="banner-img">
+        <h1>TIL FAGFOLK</h1>
+      </div>
+
+      <!-- <div class="bannerforside">
+        <div>
+          <img src="img/tree.webp" class="bannerimg" alt="mobile baggrund" />
+        </div>
+      </div> -->
     </header>
     <main>
-      <div class="banner">
+      <!-- <div class="banner">
         <img
           src="img/banner.webp"
           class="bannerimg"
           alt="bannerbillede med træ"
         />
         <h2 class="bannertitel">TIL FAGFOLK</h2>
-      </div>
+      </div> -->
       <section>
         <h2>Supervision</h2>
         <div class="margin">
@@ -193,5 +207,6 @@
         <img src="img/forening.png" alt="Dansk Psykolog Forening" />
       </div>
     </footer>
+    <script src="menu.js"></script>
   </body>
 </html>
