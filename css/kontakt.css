@@ -72,7 +72,7 @@ nav.active .menu a {
 }
 
 .banner-img {
-  background-image: url(/img/banner.webp);
+  background-image: url(../img/banner.webp);
 }
 
 .banner-img h1 {
