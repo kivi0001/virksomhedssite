@@ -9,6 +9,13 @@ body {
   margin: auto;
 }
 
+@media (min-width: 800px) {
+  body {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
 main {
   max-width: 100%;
   margin: auto;
@@ -262,8 +269,6 @@ nav ul .dropdown li a {
   }
 }
 
-
-
 /* FOOTER */
 .footer {
   background-color: #595731;
@@ -294,5 +299,4 @@ nav ul .dropdown li a {
     display: block;
     margin: 20px auto;
   }
-
 }
