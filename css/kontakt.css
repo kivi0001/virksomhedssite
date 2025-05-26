@@ -64,27 +64,117 @@ nav.active .menu a {
   display: none;
 }
 
-@media (width < 800px) {
-  .kontakt1_1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: start;
-    align-items: center;
-  }
+.banner-img {
+  background-image: url(/img/banner.webp);
+}
 
-  .kontakt1_1 p {
-    line-height: 1.6rem;
-    padding-right: 20px;
-  }
+.banner-img h1 {
+  color: #ffffff;
+  padding: 1em;
+  font-family: "Lusitana";
+  letter-spacing: 2px;
+  font-weight: lighter;
+  text-align: left;
+}
 
-  .kontakt {
-    margin-left: 50px;
-    font-size: larger;
-  }
+.kontakt1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  align-items: center;
+}
 
-  .kontakt_form {
-    align-items: center;
-    margin-left: 50px;
+.kontakt1_1 p {
+  line-height: 1.6rem;
+  padding-right: 20px;
+}
+
+.kontakt_form {
+  align-items: center;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.kontakt_form {
+  width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.kontakt_form h1 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.blok {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.h2 {
+  margin-bottom: 30px;
+}
+
+.formsection {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+input[type="text"]::placeholder {
+  color: #999;
+  font-weight: bold;
+}
+
+#Send {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#Send:hover {
+  background-color: #555;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+@media (width<800px) {
+  p {
+    line-height: 1.8;
+    margin: 20px auto;
+    display: block;
   }
 }
