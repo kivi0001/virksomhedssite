@@ -4,12 +4,12 @@
 }
 
 @font-face {
-    font-family: "karla";
-    src: url(../font/Karla-VariableFont_wght.ttf);
+  font-family: "karla";
+  src: url(../font/Karla-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: "lusitana";
-    src: url(../font/Lusitana-Regular.ttf);
+  font-family: "lusitana";
+  src: url(../font/Lusitana-Regular.ttf);
 }
 body {
   background-color: #e1d2bd;
@@ -88,7 +88,6 @@ a:hover {
 }
 p {
   font-family: lusitana;
-  font-size: 16px;
   line-height: 170%;
   /* margin-right: 10px; */
   margin: 30px;
@@ -101,7 +100,6 @@ h4 {
   font-family: lusitana;
 }
 h2 {
-  font-size: 24px;
   margin-left: 30px;
   margin-top: 30px;
   text-align: left center;
@@ -173,7 +171,8 @@ h4 {
   height: 20px;
   cursor: pointer;
 }
-.burger, .line {
+.burger,
+.line {
   width: 100%;
   height: 2px;
   background-color: #ffffff;
@@ -184,51 +183,50 @@ h4 {
   display: none;
 }
 .logo p {
-  margin:0;
+  margin: 0;
 }
 .boks {
-  margin-left:0;
+  margin-left: 0;
 }
-@media (max-width: 800px){
-
+@media (max-width: 800px) {
   .menu {
-      display: none;
-      font-family: 'karla';
-    }
-    .burger {
-      display: block;
-      margin: 1em;
-    }
-    .burger.active .line:nth-child(1) {
-      transform: rotate(45deg) translate(5px, 5px);
-      transition: 0.2s linear;
-    }
-    .burger.active .line:nth-child(2) {
-      opacity: 0;
-      transition: 0.15s linear;
-    }
-    .burger.active .line:nth-child(3) {
-      transform: rotate(-45deg) translate(5px, -5px);
-      transition: 0.2s linear;
-    }
-    nav.active .menu {
-      display: block;
-      background-color: #595731;
-      position: absolute;
-      top: 94px;
-      left: 0;
-      width: 100%;
-      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-      z-index: 1;
-    }
-    nav.active .menu li {
-      margin: 10px 20px;
-    }
-    nav.active .menu a {
-      font-size: 20px;
-      color: #ffffff;
-    }
+    display: none;
+    font-family: "karla";
   }
+  .burger {
+    display: block;
+    margin: 1em;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+  nav.active .menu {
+    display: block;
+    background-color: #595731;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+  nav.active .menu a {
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
 @media (width>=800px) {
   body {
     background-color: #e1d2bd;
@@ -289,7 +287,7 @@ h4 {
     text-align: left;
     margin-left: 30px;
     font-size: 26px;
-    width:95px;
+    width: 95px;
   }
   .knap2 {
     text-align: left;

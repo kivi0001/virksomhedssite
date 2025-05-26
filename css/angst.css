@@ -73,19 +73,6 @@ img {
   letter-spacing: 5px;
 }
 
-/* FONTS */
-h1 {
-  font-family: sans-serif;
-}
-
-li {
-  font-family: sans-serif;
-}
-
-p {
-  font-family: "Lusitana";
-}
-
 /* LOGO */
 .logo h1 {
   margin-left: 20px;
@@ -97,7 +84,7 @@ p {
 .logo p {
   color: white;
   letter-spacing: 4.5px;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   padding-bottom: 15px;
   text-align: center;
 }

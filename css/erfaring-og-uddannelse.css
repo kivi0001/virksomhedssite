@@ -65,19 +65,6 @@ img {
   letter-spacing: 5px;
 }
 
-/* FONTS */
-h1 {
-  font-family: sans-serif;
-}
-
-li {
-  font-family: sans-serif;
-}
-
-p {
-  font-family: "Lusitana";
-}
-
 /* LOGO */
 .logo h1 {
   margin-left: 20px;
@@ -177,7 +164,6 @@ h2 {
   text-align: center;
   font-family: "Karla";
   padding-bottom: 5%;
-  font-size: 1.8rem;
 }
 
 .erfaring {
