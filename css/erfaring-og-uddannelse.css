@@ -238,7 +238,6 @@ h2 {
     display: grid;
     grid-template-columns: 1fr;
     background-color: #595731;
-    margin-bottom: 5%;
   }
 
   .logo-footer {
