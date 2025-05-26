@@ -147,7 +147,7 @@ h2 {
     color: #ffffff;
   }*/
   .banner-img {
-    background-image: url(/img/banner.webp);
+    background-image: url(../img/banner.webp);
   }
 
   .banner-img h1 {
@@ -190,7 +190,7 @@ h2 {
   } */
 
   .banner-img {
-    background-image: url(/img/banner.webp);
+    background-image: url(../img/banner.webp);
   }
   .banner-img h1 {
     text-align: start;

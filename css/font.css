@@ -1,11 +1,11 @@
 @font-face {
   font-family: Karla;
-  src: url("/font/Karla-VariableFont_wght.ttf");
+  src: url("../font/Karla-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: Lusitana;
-  src: url("/font/Lusitana-Regular.ttf");
+  src: url("../font/Lusitana-Regular.ttf");
 }
 
 h1,
