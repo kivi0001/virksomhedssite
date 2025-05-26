@@ -230,23 +230,3 @@ h2 {
   min-width: 200px;
 }
 
-@media (width < 800px) {
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #595731;
-    margin-bottom: 5%;
-  }
-
-  .logo-footer {
-    max-width: 80%;
-    display: block;
-    margin: 20px auto;
-  }
-
-  .forening-footer {
-    max-width: 80%;
-    display: block;
-    margin: 20px auto;
-  }
-}

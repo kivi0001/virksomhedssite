@@ -10,3 +10,23 @@
 .logo-footer {
   padding-right: 40px;
 }
+@media (width < 800px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #595731;
+  }
+
+  .logo-footer {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .forening-footer {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+
+}
