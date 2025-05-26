@@ -84,7 +84,13 @@ h2 {
   margin-top: 15px;
   margin-left: 150px;
 }
-.kontaktbtn,
+.kontaktbtn {
+  margin-left: 160px;
+  font-size: 15px;
+  border: solid 2px black;
+  padding: 10px 20px;
+}
+
 .merebtn {
   margin-left: 160px;
   font-size: 15px;
@@ -106,6 +112,7 @@ h2 {
 .burger {
   display: none;
 }
+
 @media (max-width: 800px){
 
   .menu {
