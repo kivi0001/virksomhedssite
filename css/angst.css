@@ -146,19 +146,6 @@ nav ul .dropdown li a {
   display: block;
 }
 
-/* FOOTER */
-.footer {
-  background-color: #595731;
-  color: white;
-  padding: 4% 5%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.logo-footer {
-  padding-right: 40px;
-}
-
 /* ANDET */
 .grid-1-1 {
   display: grid;
@@ -221,25 +208,6 @@ nav ul .dropdown li a {
   .kontakt-container {
     padding-bottom: 7%;
   }
-
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #595731;
-    margin-bottom: 5%;
-  }
-
-  .logo-footer {
-    max-width: 80%;
-    display: block;
-    margin: 20px auto;
-  }
-
-  .forening-footer {
-    max-width: 80%;
-    display: block;
-    margin: 20px auto;
-  }
 }
 
 @media (width = 800px) {
@@ -292,4 +260,40 @@ nav ul .dropdown li a {
     font-size: 20px;
     color: #ffffff;
   }
+}
+
+
+
+/* FOOTER */
+.footer {
+  background-color: #595731;
+  color: white;
+  padding: 4% 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo-footer {
+  padding-right: 40px;
+}
+@media (width < 800px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #595731;
+    margin-bottom: 5%;
+  }
+
+  .logo-footer {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .forening-footer {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+
 }
