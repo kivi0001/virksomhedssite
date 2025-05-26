@@ -2,12 +2,19 @@ body {
   background-color: #e1d2bd;
 }
 
+@media (min-width: 800px) {
+  body {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
-.menu {
+/* .menu {
   display: none;
   font-family: "karla";
 }
@@ -27,8 +34,8 @@ img {
 .burger.active .line:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
   transition: 0.2s linear;
-}
-nav.active .menu {
+} */
+/* nav.active .menu {
   display: block;
   background-color: #595731;
   position: absolute;
@@ -44,9 +51,9 @@ nav.active .menu li {
 nav.active .menu a {
   font-size: 20px;
   color: #ffffff;
-}
+} */
 
-.burger {
+/* .burger {
   width: 30px;
   height: 20px;
   cursor: pointer;
@@ -60,7 +67,7 @@ nav.active .menu a {
 }
 .burger {
   display: none;
-}
+} */
 
 .banner-img {
   background-image: url(/img/banner.webp);

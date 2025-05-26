@@ -22,10 +22,10 @@ body {
 }
 
 @media (max-width: 800px) {
-  .menu {
+  /* .menu {
     display: none;
     font-family: "karla";
-  }
+  } */
   .burger {
     display: block;
     margin: 1em;
@@ -45,7 +45,7 @@ body {
     transition: 0.2s linear;
   }
 
-  nav.active .menu {
+  /* nav.active .menu {
     display: block;
     background-color: #595731;
     position: absolute;
@@ -63,7 +63,7 @@ body {
   nav.active .menu a {
     font-size: 20px;
     color: #ffffff;
-  }
+  } */
 }
 
 .banner-img {
