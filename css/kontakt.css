@@ -11,9 +11,16 @@ img {
 }
 
 .menu {
-  display: none;
   font-family: "karla";
 }
+
+@media (min-width: 800px) {
+  body {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
 .burger {
   display: block;
   margin: 1em;
