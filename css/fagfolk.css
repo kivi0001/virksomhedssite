@@ -24,7 +24,7 @@ img {
 a {
   text-decoration: none;
   color: black;
-  /* border: solid 2px black; */
+  /* border: sod 2px black; */
   /* padding: 10px 20px; */
   font-family: "lusitana";
   line-height: 170%;
@@ -57,10 +57,9 @@ p {
   font-family: "karla";
 }
 ul {
-  margin: 30px;
-  font-family: lusitana;
+  font-family: 'lusitana';
   font-size: 16px;
-  line-height: 170%;
+  line-height: 20%;
 }
 h1,
 h2,
@@ -143,7 +142,7 @@ h2 {
       left: 0;
       width: 100%;
       box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-      z-index: 1;
+      z-index: 0;
     }
     nav.active .menu li {
       margin: 10px 20px;
@@ -224,4 +223,13 @@ h2 {
     padding: 10px 50px;
   }
   
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #595731;
+  z-index: 1000;
+  min-width: 200px;
 }
